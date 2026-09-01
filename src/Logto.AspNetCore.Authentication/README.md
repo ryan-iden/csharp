@@ -1,22 +1,21 @@
-# Logto ASP.NET Core authentication middleware
+# iden ASP.NET Core authentication middleware
 
-[![Logto](https://img.shields.io/badge/for-logto-7958ff)][Website]
-[![NuGet](https://img.shields.io/nuget/v/Logto.AspNetCore.Authentication)][NuGet]
-[![NuGet](https://img.shields.io/nuget/dt/Logto.AspNetCore.Authentication)][NuGet]
-[![Discord](https://img.shields.io/discord/965845662535147551?color=5865f2&logo=discord&label=discord)][Discord]
+[![iden](https://img.shields.io/badge/for-iden-5B5CF6)][Website]
+[![NuGet](https://img.shields.io/nuget/v/RyanIden.AspNetCore.Authentication)][NuGet]
+[![NuGet](https://img.shields.io/nuget/dt/RyanIden.AspNetCore.Authentication)][NuGet]
 
-ASP.NET Core authentication middleware for Logto.
+ASP.NET Core authentication middleware for iden.
 
 ## Prerequisites
 
 - .NET 6.0 or higher
-- A [Logto Cloud][Website] account or a self-hosted Logto
-- A Logto traditional web application created
+- An iden deployment
+- An iden traditional web application
 - An ASP.NET Core web application created
 
 ## Guide
 
-Check out our [docs](https://docs.logto.io/sdk/) and choose the right guide for your project.
+Use the help center bundled with your iden deployment and choose the ASP.NET Core guide.
 
 ## Installation
 
@@ -28,12 +27,9 @@ dotnet add package RyanIden.AspNetCore.Authentication --version 0.0.1
 
 See [sample](https://github.com/ryan-iden/csharp/tree/HEAD/sample/) directory for a runnable sample project.
 
-## Resources
+## Compatibility
 
-- [Logto website][Website]
-- [Logto documentation](https://docs.logto.io/)
-- [Join Discord][Discord]
+The .NET namespaces remain `Logto.*` for source compatibility. This project is derived from the corresponding Logto SDK; the compatibility names do not identify the product shown to end users.
 
-[Website]: https://logto.io/
+[Website]: https://github.com/ryan-iden/iden
 [NuGet]: https://www.nuget.org/packages/RyanIden.AspNetCore.Authentication/
-[Discord]: https://discord.gg/vRvwuwgpVX

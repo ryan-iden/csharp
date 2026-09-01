@@ -6,7 +6,6 @@ Current iden release: **0.0.1**. Install from `RyanIden.AspNetCore.Authenticatio
 
 
 [![iden](https://img.shields.io/badge/for-iden-5B5CF6)][Website]
-[![Discord](https://img.shields.io/discord/965845662535147551?color=5865f2&logo=discord&label=discord)][Discord]
 
 The SDK and samples for integrating ASP.NET Core applications with iden.
 
@@ -29,14 +28,11 @@ The .NET namespaces remain `Logto.*` for source compatibility.
 
 - [sample](./samples/sample): Sample ASP.NET Core web application that shows how to use the ASP.NET Core authentication middleware.
 - [sample-mvc](./samples/sample-mvc): Sample ASP.NET Core web MVC application that shows how to use the ASP.NET Core authentication middleware.
-- [sample-wasm](./samples/sample-wasm): Sample Blazor WebAssembly application that shows how to use Blorc.OpenIdConnect to authenticate users with Logto.
+- [sample-wasm](./samples/sample-wasm): Sample Blazor WebAssembly application that shows how to use Blorc.OpenIdConnect to authenticate users with iden.
 - [sample-blazor](./samples/sample-blazor): Sample Blazor Server application that shows how to use the ASP.NET Core authentication middleware.
 
 ## Resources
 
-- [Logto website][Website]
-- [Logto documentation](https://docs.logto.io/)
-- [Join Discord][Discord]
+- [iden repository][Website]
 
 [Website]: https://github.com/ryan-iden/iden
-[Discord]: https://discord.gg/vRvwuwgpVX
