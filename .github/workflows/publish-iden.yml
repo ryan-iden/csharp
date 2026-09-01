@@ -20,6 +20,12 @@ jobs:
         with:
           dotnet-version: '8.0.x'
       - run: dotnet pack src/Logto.AspNetCore.Authentication/Logto.AspNetCore.Authentication.csproj --configuration Release --output artifacts
+      - name: Upload NuGet package artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: iden-nuget-${{ github.sha }}
+          path: artifacts/*.nupkg
+          if-no-files-found: error
       - name: Exchange GitHub OIDC token for a NuGet API key
         id: login
         uses: NuGet/login@v1
