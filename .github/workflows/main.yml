@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - ryan-wong-coder-personal
   pull_request:
 
 concurrency:
@@ -18,9 +19,9 @@ jobs:
         dotnet: ['6.x', '7.x', '8.x']
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-dotnet@v3
+      - uses: actions/setup-dotnet@v5
         with:
           dotnet-version: ${{ matrix.dotnet }}
 

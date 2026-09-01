@@ -7,19 +7,19 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <PackageId>Logto.AspNetCore.Authentication</PackageId>
-        <Version>0.2.0</Version>
-        <Description>Logto ASP.Net Core authentication SDK.</Description>
-        <Authors>Logto</Authors>
-        <Company>Silverhand, Inc.</Company>
-        <Copyright>Silverhand, Inc.</Copyright>
-        <PackageTags>logto;auth;authentication;identity;oauth2;openid-connect;oidc</PackageTags>
+        <PackageId>Iden.AspNetCore.Authentication</PackageId>
+        <Version>0.0.1</Version>
+        <Description>iden ASP.NET Core authentication SDK.</Description>
+        <Authors>ryan-iden</Authors>
+        <Company>ryan-iden</Company>
+        <Copyright>ryan-iden contributors</Copyright>
+        <PackageTags>iden;auth;authentication;identity;oauth2;openid-connect;oidc</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageIcon>Logto.png</PackageIcon>
-        <PackageProjectUrl>https://logto.io/</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/ryan-iden/iden</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/logto-io/csharp</RepositoryUrl>
+        <RepositoryUrl>https://github.com/ryan-iden/csharp</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
