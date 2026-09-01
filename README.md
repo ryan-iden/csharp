@@ -1,6 +1,6 @@
 # iden C# SDK
 
-Current iden release: **0.0.1**. Install from `Iden.AspNetCore.Authentication` on NuGet.
+Current iden release: **0.0.1**. Install from `RyanIden.AspNetCore.Authentication` on NuGet.
 
 > This project is derived from the corresponding [Logto SDK](https://github.com/logto-io). Protocol constants and established public API names such as `LogtoClient` are intentionally retained where changing them would break compatibility.
 
@@ -13,7 +13,7 @@ The SDK and samples for integrating ASP.NET Core applications with iden.
 ## Installation
 
 ```bash
-dotnet add package Iden.AspNetCore.Authentication --version 0.0.1
+dotnet add package RyanIden.AspNetCore.Authentication --version 0.0.1
 ```
 
 The .NET namespaces remain `Logto.*` for source compatibility.

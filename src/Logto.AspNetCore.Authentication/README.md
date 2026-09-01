@@ -21,7 +21,7 @@ Check out our [docs](https://docs.logto.io/sdk/) and choose the right guide for 
 ## Installation
 
 ```bash
-dotnet add package Iden.AspNetCore.Authentication --version 0.0.1
+dotnet add package RyanIden.AspNetCore.Authentication --version 0.0.1
 ```
 
 ## Sample project
@@ -35,5 +35,5 @@ See [sample](https://github.com/ryan-iden/csharp/tree/HEAD/sample/) directory fo
 - [Join Discord][Discord]
 
 [Website]: https://logto.io/
-[NuGet]: https://www.nuget.org/packages/Iden.AspNetCore.Authentication/
+[NuGet]: https://www.nuget.org/packages/RyanIden.AspNetCore.Authentication/
 [Discord]: https://discord.gg/vRvwuwgpVX
