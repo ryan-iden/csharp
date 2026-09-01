@@ -1,6 +1,7 @@
 name: Publish iden .NET SDK
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - 'iden-v*'
@@ -23,5 +24,5 @@ jobs:
         id: login
         uses: NuGet/login@v1
         with:
-          user: ${{ secrets.NUGET_USER }}
+          user: ryanwong
       - run: dotnet nuget push 'artifacts/*.nupkg' --api-key '${{ steps.login.outputs.NUGET_API_KEY }}' --source https://api.nuget.org/v3/index.json
